@@ -1,57 +1,62 @@
-.label{
-    display: block;
-    line-height: 150%;
-    text-align: center;
-    font-size: 60px;
-    font-weight: bold;
-    align-items: center;
-    margin-left: 250px;
-}
 
-.decrease{
-    font-size: 20px;
-    font-weight: bold;
-    color: red;
-    margin-left: 250px;
-}
-
-.reset{
-    font-size: 20px;
-    font-weight: bold;
-    color: blue;
-    margin: 7.5px;
-}
-
-.increase{
-    font-size: 20px;
-    font-weight: bold;
-    color: green;
-    
-}
-
-.counter{
-    display: block;
-    line-height: 150%;
-    text-align: center;
-    font-size: 60px;
-    font-weight: bold;
-    align-items: center;
-    margin-left: 250px;  
-
-}
-
-.buttons{
+body {
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+#root {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .all{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    margin-left: 350px;
+    text-align: center;
 }
+
+
+
+.decrease{
+    margin: 20px auto;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.increase{
+    margin: 20px auto;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.reset{
+    
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #e7e7e7;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+.counter{
+    font-size: 50px;;
+    color: #9b8c8c;
+}
+
+
