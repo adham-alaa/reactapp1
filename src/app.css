@@ -1,24 +1,22 @@
 
-body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    font-family: Arial, sans-serif;
-}
-
 #root {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
 }
 
 .all{
     text-align: center;
+    font-family: Arial, sans-serif;
 }
 
+.counter{
+    margin-top: -300px;
+    margin-bottom: 50px;
+    font-size: 10em;
+    color: #9b8c8c;
+}
 
 
 .decrease{
@@ -26,7 +24,7 @@ body {
     font-size: 20px;
     padding: 10px 20px;
     cursor: pointer;
-    background-color: #f44336;
+    background-color: hsl(4, 90%, 58%);
     color: white;
     border: none;
     border-radius: 5px;
@@ -36,7 +34,7 @@ body {
     font-size: 20px;
     padding: 10px 20px;
     cursor: pointer;
-    background-color: green;
+    background-color: hsl(120, 100%, 25%);
     color: white;
     border: none;
     border-radius: 5px;
@@ -54,9 +52,17 @@ body {
     border-radius: 5px;
 }
 
-.counter{
-    font-size: 50px;;
-    color: #9b8c8c;
+.decrease:hover{
+    background-color: hsl(0, 65%, 69%);
 }
+
+.increase:hover{
+    background-color: hsl(120, 61%, 54%);
+}
+
+.reset:hover{
+    background-color: hsl(0, 0%, 60%);
+}
+
 
 
